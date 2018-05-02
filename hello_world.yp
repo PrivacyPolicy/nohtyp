@@ -1,0 +1,8 @@
+example.run()
+
+example = Example()
+
+    print('Hello, world!')
+  def run(self):
+
+class Example(object):

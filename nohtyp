@@ -1,0 +1,8 @@
+if [ -f $1 -a $1 == *.yp ]; then
+  FILENAME=.temp$$
+  tac $1 > FILENAME
+  python FILENAME
+  rm FILENAME
+else
+  echo 'Invalid file passed'
+fi
